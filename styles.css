@@ -1,14 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
-  margin: 0;
-  color: #555;
-
-  font-family: 'Montserrat',
-sans-serif;
+    color: #555;
+    margin: 0;
+    font-family: 'Montserrat',
+    sans-serif;
 }
 #header {
-  background-color: @labc9c;
+  background-color: #1abc9c;
   height: 150px;
   line-height: 150px;
 }
@@ -21,7 +20,7 @@ sans-serif;
 #header a:hover {
   color: #222;
 }
-#header-title  {
+#header-title {
   display: block;
   float: left;
   font-size: 20px;
@@ -34,7 +33,7 @@ sans-serif;
 }
 #header-nav li {
   display: inline;
-padding-left: 20px;
+  padding-left: 20px;
 }
 .container {
   max-width: 1000px;
